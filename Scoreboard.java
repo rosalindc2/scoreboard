@@ -20,6 +20,9 @@ public void recordPlay(int score)
     {
         if(teamOne.equals(activeTeam))
         teamOneScore += score;
+        
+        if(teamTwo.equals(activeTeam))
+        teamTwoScore += score;
 
         if(score == 0)
         {
